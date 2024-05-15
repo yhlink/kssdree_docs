@@ -10,4 +10,5 @@ Welcome to Kssdtree documentation!
    :maxdepth: 2
 
    Install/index
+   Quick/index
    API/index
