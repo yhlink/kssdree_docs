@@ -1,7 +1,7 @@
 # Installation Tutorial
 Linux, MacOS and Windows packages are built for Python3 and require the following dependent packages: pyqt5, ete3, requests. In the case Kssdtree is installed using pip command, these dependencies should be installed automatically. For Windows, it also requires the installation of the gzip tool for sequence decompression and gcc compiler.
 
-### Table of contents
+# Platforms
 1. [Linux](#1-Linux)
 2. [MacOS](#2-MacOS)
 3. [Windows](#3-Windows)
