@@ -15,5 +15,4 @@ It also provides one-stop tree construction and visualization. It can handle DNA
    :maxdepth: 3
 
    Install/index
-   Quick/index
    API/index
