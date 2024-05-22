@@ -22,6 +22,8 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
+    'recommonmark',
+    'sphinx_markdown_tables'
 ]
 
 templates_path = ['_templates']
