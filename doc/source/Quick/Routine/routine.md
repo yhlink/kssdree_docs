@@ -1,4 +1,4 @@
-Demonstrate the phylogenetic placement pipeline of Kssdtree using an assembled prokaryotic genome, including a multi-step implementation and a one-step implementation.
+Demonstrate the routine pipeline of Kssdtree on ES29 dataset, including a multi-step implementation and a one-step implementation.
 
 # Multi-step implementation
 ```
