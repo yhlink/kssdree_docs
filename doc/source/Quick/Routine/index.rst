@@ -1,7 +1,7 @@
-Phylogenetic Placement Pipeline
+Routine Pipeline
 =================================
  
 .. toctree::
    :maxdepth: 1
-   
+
    routine
