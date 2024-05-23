@@ -27,7 +27,7 @@ kssdtree.visualize(newick='ES29.newick', mode='c')
 ```
 import kssdtree
 
-kssdtree.quick(shuf_file='L3K9.shuf', genome_files='PROK1', output='PROK31', reference='gtdbr214_sketch', method='nj', mode='r', N=30)
+kssdtree.quick(shuf_file='L3K10.shuf', genome_files='ES29', output='ES29.newick',  method='nj', mode='r')
 ```
 
 Output:
