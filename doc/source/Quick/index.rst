@@ -1,4 +1,4 @@
-API Tutorial
+Quick Tutorial
 ================
 
 .. automodule:: kssdtree
