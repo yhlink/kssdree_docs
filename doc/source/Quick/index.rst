@@ -1,7 +1,9 @@
 Quick Tutorial
 ================
 
-.. automodule:: kssdtree
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. toctree::
+   :maxdepth: 1
+
+   Routine/index
+   Subtract/index
+   Placement/index
