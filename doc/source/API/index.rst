@@ -1,15 +1,11 @@
-
 Welcome to Kssdtree documentation!
 ====================================
-
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+
+   kssdtree
 
 
 
-Indices and tables
-==================
 
-* :ref:`modindex`
 

@@ -12,7 +12,7 @@ It also provides one-stop tree construction and visualization. It can handle DNA
 ================================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
 
    Install/index
    API/index
