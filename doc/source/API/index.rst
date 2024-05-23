@@ -1,11 +1,7 @@
-Welcome to Kssdtree documentation!
-====================================
-.. toctree::
-   :maxdepth: 1
+Kssdtree API
+================
 
-   kssdtree
-
-
-
-
-
+.. automodule:: kssdtree
+   :members:
+   :undoc-members:
+   :show-inheritance:
