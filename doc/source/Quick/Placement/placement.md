@@ -23,4 +23,4 @@ kssdtree.quick(shuf_file='L3K9.shuf', genome_files='PROK1', output='PROK31', ref
 ```
 
 Output:
-![Result](http://18.205.53.149:8000/kssdtree/pngs/3.png)
+![3.png](http://www.metakssdcoabundance.link/kssdtree/pngs/3.png)

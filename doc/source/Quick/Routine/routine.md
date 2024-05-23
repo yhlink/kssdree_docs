@@ -31,4 +31,4 @@ kssdtree.quick(shuf_file='L3K10.shuf', genome_files='ES29', output='ES29.newick'
 ```
 
 Output:
-![Result](http://18.205.53.149:8000/kssdtree/pngs/1.png)
+![1.png](http://www.metakssdcoabundance.link/kssdtree/pngs/1.png)
