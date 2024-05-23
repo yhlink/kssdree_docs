@@ -30,4 +30,4 @@ import kssdtree
 kssdtree.quick(shuf_file='L3K10.shuf', genome_files='HG43', output='HG43.newick', reference='hg38.fa.gz', taxonomy='HG43.txt', method='nj', mode='r')
 ```
 
-![Result](http://18.205.53.149:8000/kssdtree/jpgs/2.jpg)
+![Result](http://18.205.53.149:8000/kssdtree/pngs/2.png)

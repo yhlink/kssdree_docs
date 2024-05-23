@@ -30,4 +30,4 @@ import kssdtree
 kssdtree.quick(shuf_file='L3K9.shuf', genome_files='PROK1', output='PROK31', reference='gtdbr214_sketch', method='nj', mode='r', N=30)
 ```
 
-![Result](http://18.205.53.149:8000/kssdtree/jpgs/1.jpg)
+![Result](http://18.205.53.149:8000/kssdtree/pngs/1.png)
