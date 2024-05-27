@@ -192,4 +192,3 @@ def quick(shuf_file=None, genomes_file=None, output=None, reference=None, taxono
             True
     """
     return True
-
