@@ -44,6 +44,7 @@ def sketch(shuf_file=None, genomes_file=None, output=None, set_opt=None):
     return True
 
 
+
 def dist(ref_sketch=None, qry_sketch=None, output=None, flag=None):
     """
 
