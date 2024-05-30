@@ -1,4 +1,4 @@
-Reference Subtraction Pipeline
+Reference subtraction pipeline
 =================================
  
 .. toctree::

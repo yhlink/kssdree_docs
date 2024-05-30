@@ -1,4 +1,4 @@
-Routine Pipeline
+Routine pipeline
 =================================
  
 .. toctree::

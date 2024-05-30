@@ -1,4 +1,4 @@
-Phylogenetic Placement Pipeline
+Phylogenetic placement pipeline
 =================================
  
 .. toctree::
