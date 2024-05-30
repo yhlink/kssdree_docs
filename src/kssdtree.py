@@ -24,8 +24,8 @@ def sketch(shuf_file=None, genome_files=None, output=None, set_opt=None):
 
     Args:
         shuf_file (str): Path to the .shuf file. Kssdtree provides multiple .shuf files ('L3K9.shuf', 'L3K10.shuf', etc.) as input for genome sketching. Default is 'L3K10.shuf'.
-        genome_files (str): Path to the folder containing genome files. Kssdtree supports input of genome files in both fasta and fastq formats.
-        output (str): Output folder path for sketch result files of genome files.
+        genome_files (str): Path to the folder containing genome files or the filename of a genome file. Kssdtree supports input of genome files in both fasta and fastq formats.
+        output (str): Path to the output folder for the sketch result files.
         set_opt (bool): Perform set operations (subtract and retrieve) if needed. Default is False. To perform set operations, set set_opt=True.
 
     Returns:
@@ -82,7 +82,7 @@ def retrieve(ref_sketch=None, qry_sketch=None, output=None, N=None, method=None)
             ref_sketch (str): Path to the folder containing sketch result files of reference genomes.
             qry_sketch (str): Path to the folder containing sketch result files of query genomes.
             output (str): Path to the output folder for the retrieved sketch result files.
-            N (int): Maximum number of closest reference genomes to retrieve.
+            N (int): Maximum number of nearest reference (gtdbr214_sketch) to retrieve.
             method (str): Method for constructing the tree, either 'nj' (NJ) or 'dnj' (DNJ). Defaults to 'nj'.
 
 
@@ -171,11 +171,11 @@ def quick(shuf_file=None, genome_files=None, output=None, reference=None, taxono
             shuf_file (str): Path to the .shuf file. Kssdtree provides multiple .shuf files ('L3K9.shuf', 'L3K10.shuf', etc.) as input for genome sketching. Default is 'L3K10.shuf'. For phylogenetic placement, 'L3K9.shuf' file must be used.
             genome_files (str): Path to the folder containing genome files. Kssdtree supports input of genome files in both fasta and fastq formats.
             output (str): For routine and reference subtraction pipelines, the output is a .newick format file. For phylogenetic placement pipeline, the output is a folder, including output.newick and output_accession_taxonomy.txt.
-            reference (str): If None, performs the routine workflow. If set to the reference genome file or folder path, performs the reference subtraction workflow. For phylogenetic placement, set to 'gtdbr214_sketch'.
+            reference (str): If None, performs the routine workflow. If set to the filename of a reference genome file or the path to the folder containing reference genome files, performs the reference subtraction workflow. For phylogenetic placement, set to 'gtdbr214_sketch'.
             taxonomy (str): Filename for the taxonomy information in txt format, which records the name (accession) of genomes and their taxonomy. Default is None.
             method (str): Method for constructing the tree, either 'nj' (NJ) or 'dnj' (DNJ). Default is 'nj'.
             mode (str): Visualization mode, either 'r' (rectangle) or 'c' (circle). Default is 'r'.
-            N (int): Maximum number of nearest reference genomes. Default is 0 for routine and reference subtraction pipelines. For phylogenetic placement pipeline, set N > 0.
+            N (int): Maximum number of nearest reference (gtdbr214_sketch) to retrieve. Default is 0 for routine and reference subtraction pipelines. For phylogenetic placement pipeline, set N > 0.
 
         Returns:
             bool: True or False
