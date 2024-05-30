@@ -98,7 +98,7 @@ def retrieve(ref_sketch=None, qry_sketch=None, output=None, N=None, method=None)
 
 def build(phylip=None, output=None, method=None):
     """
-        Constructing tree using the NJ or DNJ method and generating it in newick format.
+        Constructing tree with NJ or DNJ method and generating it in newick format.
 
         Args:
             phylip (str): Path to the distance matrix file in phylip format.
