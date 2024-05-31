@@ -9,7 +9,7 @@ kssdtree.sketch(shuf_file='L3K10.shuf', genome_files='hg38.fa.gz', output='Ref_s
 kssdtree.sketch(shuf_file='L3K10.shuf', genome_files='HG43', output='HG43_sketch', set_opt=True)
 
 # step2、subtracting reference sketches (Ref_sketch) from input sketches (HG43_sketch)
-kssdtree.subtract(ref_sketch='Ref_sketch', genome_sketch=='HG43_sketch', output=='HG43_sub_sketch')
+kssdtree.subtract(ref_sketch='Ref_sketch', genome_sketch='HG43_sketch', output='HG43_sub_sketch')
 
 # step3、calculating and creating distance matrix in phylip format required by NJ
 kssdtree.dist(ref_sketch='HG43_sub_sketch', qry_sketch='HG43_sub_sketch', output='HG43.phylip', flag=0)
